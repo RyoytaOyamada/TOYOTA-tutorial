@@ -1,6 +1,72 @@
 @charset "utf-8";
 
-.cars_linenap{
+
+.cars{
+  list-style: none;
+}
+.linenap_nav{
+  list-style: none;
+}
+.new_nav{
+  list-style: none;
+}
+.support_nav{
+  list-style: none;
+}
+.accessories_nav{
+  list-style: none;
+}
+.after_nav{
+  list-style: none;
+}
+.old_nav{
+  list-style: none;
+}
+.recommended_nav{
+  list-style: none;
+}
+.linenap>a{
+  text-decoration: none;
+}
+.linenap_nav>li>a{
+  text-decoration: none;
+  list-style: none;
+}
+.new>a{
+  text-decoration: none;
+}
+.new_nav>li>a{
+  text-decoration: none;
+  list-style: none;
+}
+.support>a{
+  text-decoration: none;
+}
+.support_nav>li>a{
+  text-decoration: none;
+}
+.accessories>a{
+  text-decoration: none;
+}
+.accessories_nav>li>a{
+  text-decoration: none;
+}
+.after>a{
+  text-decoration: none;
+}
+.after_nav>li>a{
+  text-decoration: none;
+}
+.old>a{
+  text-decoration: none;
+}
+.old_nav>li>a{
+  text-decoration: none;
+}
+.recommended>a{
+  text-decoration: none;
+}
+.recommended_nav>li>a{
   text-decoration: none;
 }
 .zyouho{
