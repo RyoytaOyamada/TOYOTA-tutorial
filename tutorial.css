@@ -1,77 +1,56 @@
 @charset "utf-8";
 
 
+.body{
+position: relative;
+width: 100%;
+background-color: #fff;
+color: #333;
+font-size: 14px;
+line-height: 1.5;
+}
 .cars{
   list-style: none;
+  position: absolute;
+  top: 50px;
+  z-index: 101;
+  width: 100%;
+  padding-bottom: 30px;
 }
-.linenap_nav{
+#header_area{
+  position: relative;
+  text-align: center;
+}
+#header{
+  position: absolute;
+  top: -42px;
+  right: 30px;
+  z-index: 120;
+}
+.menu{
+  display: inline-block;
+  vertical-align: middle;
+}
+.menu_nav{
   list-style: none;
 }
-.new_nav{
-  list-style: none;
-}
-.support_nav{
-  list-style: none;
-}
-.accessories_nav{
-  list-style: none;
-}
-.after_nav{
-  list-style: none;
-}
-.old_nav{
-  list-style: none;
-}
-.recommended_nav{
-  list-style: none;
-}
-.linenap>a{
+.menu>a{
   text-decoration: none;
 }
-.linenap_nav>li>a{
-  text-decoration: none;
-  list-style: none;
-}
-.new>a{
-  text-decoration: none;
-}
-.new_nav>li>a{
+.menu_nav>li>a{
   text-decoration: none;
   list-style: none;
 }
-.support>a{
-  text-decoration: none;
+.header_nav{
+  display: inline-block;
+  list-style: none;
+  float: left;
+  margin-left: 30px;
 }
-.support_nav>li>a{
+.header_nav>a{
   text-decoration: none;
-}
-.accessories>a{
-  text-decoration: none;
-}
-.accessories_nav>li>a{
-  text-decoration: none;
-}
-.after>a{
-  text-decoration: none;
-}
-.after_nav>li>a{
-  text-decoration: none;
-}
-.old>a{
-  text-decoration: none;
-}
-.old_nav>li>a{
-  text-decoration: none;
-}
-.recommended>a{
-  text-decoration: none;
-}
-.recommended_nav>li>a{
-  text-decoration: none;
-}
-.zyouho{
-  text-decoration: none;
-}
-.login{
-  text-decoration: none;
+  height: 24px;
+  color: #999;
+  font-size: 12px;
+  line-height: 24px;
 }
